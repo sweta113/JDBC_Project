@@ -9,7 +9,7 @@ public class InsertQuery
 		Connection con=null;
 		Statement stmt=null;
 		
-		String qry="insert into btm.student values(1,'Sweta',75.2)";
+		String qry="insert into data.student values(1,'Sweta',75.2)";
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			System.out.println("Driver class Load and Registered");
